@@ -1,4 +1,4 @@
-module ModularArithmetic where
+module Math.ModularArithmetic where
 -- modular arithmetic operations (used in finite fields)
 -- some code comes from https://github.com/nccgroup/pairing-bls12381
 

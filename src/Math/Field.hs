@@ -1,4 +1,4 @@
-module Field where
+module Math.Field where
 
 import Data.Bits
 

@@ -1,11 +1,11 @@
-module FFT where
+module Math.FFT where
 
 -- implementation of FFT following: https://vitalik.ca/general/2019/05/12/fft.html
 
 import Data.Sequence(unfoldr, replicate, (><))
 import Data.Foldable
-import Basic
-import ModularArithmetic
+import Math.Basic
+import Math.ModularArithmetic
 
 -- splits a list into two sublists: one with even-index and one with odd-index elements
 split [] = ([], [])

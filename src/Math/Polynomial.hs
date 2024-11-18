@@ -1,4 +1,4 @@
-module Polynomial where
+module Math.Polynomial where
 
 -- from https://hackage.haskell.org/package/dsp-0.2.4/docs/src/Polynomial-Basic.html
 

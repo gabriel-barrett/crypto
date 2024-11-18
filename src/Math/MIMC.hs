@@ -1,7 +1,7 @@
-module MIMC where
+module Math.MIMC where
 
 import Data.Array
-import ModularArithmetic
+import Math.ModularArithmetic
 
 -- compute a MIMC permutation for some number of steps
 mimc inp steps roundConstants m = mimc' 0 inp

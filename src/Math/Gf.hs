@@ -1,8 +1,8 @@
-module Gf where
+module Math.Gf where
 -- generic version of finite field (Fq), i.e., it doesn't depend on importing a global FqConfig
 
-import ModularArithmetic
-import Field
+import Math.ModularArithmetic as ModularArithmetic
+import Math.Field as Field
 
 data Gf = Z { gf :: Integer, gfmod :: Integer } deriving (Show, Ord)
 

@@ -1,7 +1,7 @@
-module ModularPolynomial where
+module Math.ModularPolynomial where
 
-import ModularArithmetic
-import Polynomial
+import Math.ModularArithmetic
+import Math.Polynomial
 import Data.List
 
 -- optimized version polynomial interpolation restricted to deg-4 modulo polynomials but for multiple sets of points

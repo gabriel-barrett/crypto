@@ -1,10 +1,10 @@
-module GCf where
+module Math.GCf where
 -- generic version of finite field (Fq), i.e., it doesn't depend on importing a global FqConfig
 -- modulus values are centered around zero. For example, for p=4 normally values are [0, 1, 2, 3]
 -- whereas centered around zero are [-2, -1, 0, 1]
 
-import ModularArithmetic
-import Field
+import Math.ModularArithmetic as ModularArithmetic
+import Math.Field as Field
 
 data GCf = GCf { gcf :: Integer, gcfmod :: Integer } deriving (Show, Ord)
 

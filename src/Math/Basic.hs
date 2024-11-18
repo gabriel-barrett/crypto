@@ -1,4 +1,4 @@
-module Basic where
+module Math.Basic where
 
 import Data.List
 import Data.Array
