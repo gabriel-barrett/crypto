@@ -1,4 +1,4 @@
-module Blake where
+module Merkle.Blake where
 
 import Numeric (showHex)
 import Data.Bits

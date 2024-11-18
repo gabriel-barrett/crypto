@@ -1,7 +1,7 @@
-module MerkleTree where
+module Merkle.MerkleTree where
 -- implements stuff from https://github.com/ethereum/research/blob/master/mimc_stark/merkle_tree.py
 
-import Basic
+import Math.Basic as Basic
 import Data.Array
 import qualified Data.Map
 import Data.Bits
@@ -9,7 +9,7 @@ import Data.Word
 import Data.List
 import Data.Maybe
 import qualified Data.ByteString as B
-import Blake
+import Merkle.Blake as Blake
 
 -- shows Merkle Tree in a more readable form
 showMerkle = map toHex

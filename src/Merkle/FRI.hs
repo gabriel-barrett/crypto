@@ -1,12 +1,12 @@
-module FRI where
+module Merkle.FRI where
 
-import Basic
-import Blake
-import ModularArithmetic
-import Polynomial
-import ModularPolynomial
-import Gf
-import MerkleTree
+import Math.Basic as Basic
+import Merkle.Blake as Blake
+import Math.ModularArithmetic as ModularArithmetic
+import Math.Polynomial as Polynomial
+import Math.ModularPolynomial as ModularPolynomial
+import Math.Gf as Gf
+import Merkle.MerkleTree as MerkleTree
 import Data.List
 import Data.Array
 import Data.Either

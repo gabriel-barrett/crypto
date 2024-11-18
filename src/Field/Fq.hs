@@ -1,8 +1,8 @@
-module Fq where
+module Field.Fq where
 
-import ModularArithmetic
-import Field
-import FqConfig (fieldModulus)
+import Math.ModularArithmetic as ModularArithmetic
+import Math.Field as Field
+import Stark.FqConfig (fieldModulus)
 
 -- Finite field functions depend on a concrete value of `fieldModulus` that is
 -- imported from `FqConfig`.
