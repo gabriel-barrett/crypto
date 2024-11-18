@@ -1,10 +1,10 @@
-module TestsMath where
+module Math.TestsMath where
 
-import ModularArithmeticTest
-import GfTest
-import PolynomialTest
-import ModularPolynomialTest
-import FFTTest
+import Math.ModularArithmeticTest as ModularArithmeticTest
+import Math.GfTest as GfTest
+import Math.PolynomialTest as PolynomialTest
+import Math.ModularPolynomialTest as ModularPolynomialTest
+import Math.FFTTest as FFTTest
 
 run = do
     ModularArithmeticTest.runTests

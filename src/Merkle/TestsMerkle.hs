@@ -1,7 +1,7 @@
-module TestsMerkle where
+module Merkle.TestsMerkle where
 
-import MerkleTreeTest
-import FRITest
+import Merkle.MerkleTreeTest as MerkleTreeTest
+import Merkle.FRITest as FRITest
 
 run = do
     MerkleTreeTest.runTests

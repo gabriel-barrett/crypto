@@ -1,10 +1,10 @@
 {-# LANGUAGE TemplateHaskell #-}
 -- ^^^ for QuickCheck.quickCheckAll
 
-module GfTest where
+module Math.GfTest where
 
-import Field
-import Gf
+import Math.Field as Field
+import Math.Gf as Gf
 import Test.QuickCheck
 
 -- test modulus

@@ -1,11 +1,11 @@
 {-# LANGUAGE TemplateHaskell #-} 
 -- ^^^ for QuickCheck.quickCheckAll
 
-module FFTTest where
+module Math.FFTTest where
 
-import ModularArithmetic
-import Polynomial
-import FFT -- if ghci fails, run `:set -ifft`
+import Math.ModularArithmetic as ModularArithmetic
+import Math.Polynomial as Polynomial
+import Math.FFT as FFT -- if ghci fails, run `:set -ifft`
 import Test.QuickCheck
 
 dom = getPowerCycle generator modulus

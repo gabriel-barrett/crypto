@@ -1,9 +1,9 @@
 {-# LANGUAGE TemplateHaskell #-}
 -- ^^^ for QuickCheck.quickCheckAll
 
-module ModularArithmeticTest where
+module Math.ModularArithmeticTest where
 
-import ModularArithmetic
+import Math.ModularArithmetic
 import Test.QuickCheck
 
 prop_multiInvOne n = n > 0 ==> [inv n' m] == multiInv [n'] m

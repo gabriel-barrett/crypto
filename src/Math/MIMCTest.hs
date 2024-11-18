@@ -1,6 +1,6 @@
-module MIMCTest where
+module Math.MIMCTest where
 
-import MIMC
+import Math.MIMC
 import Data.Array
 
 -- number of roundConstants rounds

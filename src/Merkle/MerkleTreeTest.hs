@@ -1,10 +1,10 @@
 {-# LANGUAGE TemplateHaskell #-}
 -- ^^^ for QuickCheck.quickCheckAll
 
-module MerkleTreeTest where
+module Merkle.MerkleTreeTest where
 
-import Blake
-import MerkleTree
+import Merkle.Blake as Blake
+import Merkle.MerkleTree as MerkleTree
 import Data.Array
 import Data.Bits
 import Test.QuickCheck

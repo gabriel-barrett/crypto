@@ -1,10 +1,10 @@
 {-# LANGUAGE TemplateHaskell #-} 
 -- ^^^ for QuickCheck.quickCheckAll
-module ModularPolynomialTest where
+module Math.ModularPolynomialTest where
 
-import Polynomial
-import Gf
-import ModularPolynomial
+import Math.Polynomial as Polynomial
+import Math.Gf as Gf
+import Math.ModularPolynomial as ModularPolynomial
 import Test.QuickCheck
 
 -- test modulus

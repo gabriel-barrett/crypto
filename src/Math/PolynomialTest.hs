@@ -1,9 +1,9 @@
 {-# LANGUAGE TemplateHaskell #-} 
 -- ^^^ for QuickCheck.quickCheckAll
-module PolynomialTest where
+module Math.PolynomialTest where
 
-import Basic
-import Polynomial
+import Math.Basic as Basic
+import Math.Polynomial as Polynomial
 import Data.List
 import Test.QuickCheck
 

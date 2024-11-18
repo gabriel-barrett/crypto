@@ -1,4 +1,9 @@
-module Main (main) where
+module Main where
 
-main :: IO ()
-main = putStrLn "Test suite not yet implemented."
+import Math.TestsMath as TestsMath
+import Merkle.TestsMerkle as TestsMerkle
+
+-- tests that don't depend on any FqConfig
+main = do
+  TestsMath.run
+  TestsMerkle.run
